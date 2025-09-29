@@ -1,0 +1,21 @@
+{
+  "name": "gitp",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
+  },
+  "keywords": [
+    "git",
+    "proxy",
+    "tool"
+  ],
+  "author": "",
+  "license": "ISC",
+  "description": "Git代理管理工具 - 自动为涉及origin的Git命令设置代理",
+  "devDependencies": {
+    "@types/node": "^24.5.2",
+    "typescript": "^5.9.2"
+  }
+}
